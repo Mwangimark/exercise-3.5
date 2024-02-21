@@ -32,18 +32,18 @@ true_love = int(true_love_string)
 print(true_love)
 
 if true_love<10 and true_love>90:
-  print(f"Your scores is {true_love} , you go together like coke and mentos.")
+  print("Your scores is "+true_love + ", you go together like coke and mentos.")
   
 elif true_love>40 and true_love<50:
-  print(f"Your score is {true_love}, you are alright together, though one of you is a player !!")
+  print("Your score is "+true_love + ", you are alright together, though one of you is a player !!")
   
 elif true_love>50 and true_love<65:
-  print(f"Your score is {true_love} , You guys are good together but with alot of dramas in the house")
+  print("Your score is "+true_love + " , You guys are good together but with alot of dramas in the house")
 
 elif true_love>65 and true_love<80:
-  print(f"Your score is {true_love}, You guys are best together , much strong with each other")
+  print("Your score is "+true_love + ", You guys are best together , much strong with each other")
 
 elif true_love>80 and true_love<90:
- print(f"Your score is {true_love}, You guys are best together , consider marriage buddies !!")
+ print("Your score is "+true_love + ", You guys are best together , consider marriage buddies !!")
 else:
-  print(f"Your score is {true_love} , Not good with each other !!, better if you left each other !! ")
+  print("Your score is "+true_love + " , Not good with each other !!, better if you left each other !! ")
